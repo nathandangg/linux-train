@@ -1,0 +1,5 @@
+nathan@thinkpad-l14-gen-1:~/nhan-training/shell$ cat fake_log.txt | grep "WARN" | grep "IO" | awk 'NR==1'
+2021-01-09 04:37:12 WARN consequuntur IO reiciendis eos quidem expedita cupiditate
+nathan@thinkpad-l14-gen-1:~/nhan-training/shell$ cat fake_log.txt | grep "FATAL" | grep "Camera" | awk 'END{print}'
+2021-04-14 10:15:05 FATAL at dolore Camera quasi incidunt laboriosam neque in expedita eius
+

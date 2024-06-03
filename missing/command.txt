@@ -1,0 +1,20 @@
+  202  cd missing
+  203  touch semester
+  206  echo '#!/bin/sh' > semester
+  207  echo 'curl --head --silent https://missing.csail.mit.edu' >> semester
+  208  vim semester
+  209  ./semester
+  210  sh semsester
+  211  sh semester
+  212  man chmod
+  213  ls -l
+  214  chmod a+x semester
+  215  ls -l
+  216  ./semester
+  217  touch last-modified.txt
+  218  ./semester | grep last-modified > last-modified.txt
+  219  vim last-modified.txt
+  220  history
+  221  touch commands.txt
+  222  ls
+  223  history > command.txt
